@@ -111,3 +111,6 @@ Deep learning classifiers face significant challenges when dealing with heteroge
 In this study, we propose a novel *pretraining* pipeline that learns to generate conditional noise mask specifically tailored to improve performance on multi-modal and multi-organ datasets. As a reinforcement learning algorithm, our approach employs a dual-component system comprising a very light-weight policy network that learns to sample conditional noise using a differentiable beta distribution as well as a classifier network. The policy network is trained using the reinforce algorithm to generate image-specific noise masks that regularize the classifier during pretraining. A key aspect is that the policy network's role is limited to obtaining an *intermediate (or heated) model* before fine-tuning. During inference, the policy network is omitted, allowing direct comparison between the baseline and noise-regularized models.
 
 We conducted experiments and related analyses on RadImageNet datasets. Results demonstrate that fine-tuning the intermediate models consistently outperforms conventional training algorithms on both classification and generalization to unseen concept tasks.
+
+### LICENCE
+This project is licensed under the MIT License.
