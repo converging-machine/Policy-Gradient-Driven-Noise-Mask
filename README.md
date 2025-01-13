@@ -8,13 +8,13 @@ You can find the preprint paper here: [Policy Gradient-Driven Noise Mask](https:
 If you use this code in your research, please cite our paper:
 
 ```
-@article{yavuz2024policy,
+@inproceedings{yavuz2025policy,
   title={Policy Gradient-Driven Noise Mask},
   author={Yavuz, Mehmet Can and Yang, Yang},
-  year={2024},
-  eprint={2406.14568},
-  archivePrefix={arXiv},
-  primaryClass={eess.IV}
+  booktitle={International Conference on Pattern Recognition},
+  pages={414--431},
+  year={2025},
+  organization={Springer}
 }
 ```
 
